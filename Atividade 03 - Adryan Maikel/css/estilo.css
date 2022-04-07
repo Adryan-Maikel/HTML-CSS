@@ -1,0 +1,53 @@
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+body {
+    background-image: url(../img/background.jpg);
+}
+.principal {
+    color: rgb(192, 125, 0);
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(90, 90, 90, 0.7);
+    font-size: 1.5em;
+}
+#titulo {
+    display: none;
+}
+.topo {
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/topo.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.pergaminho {
+    width: 25%;
+    height: 100%;
+    float: left;
+    margin: 0 auto;
+}
+.pergaminho:hover{
+    transform: translateY(0px);
+    animation: float 2s ease-in-out infinite;
+}
+li {
+    width: 25%;
+    height: 100%;
+    float: left;
+    margin: 0 auto;
+    list-style-type: none;
+    text-align: center;
+}
+address {
+    margin-top: 700px;
+}
