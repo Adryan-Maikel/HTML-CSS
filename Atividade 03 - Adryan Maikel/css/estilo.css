@@ -44,7 +44,7 @@ body {
     text-align: center;
     transition: background-color 1s;
 }
-.opcao:hover{
+.opcao:hover {
     background-color: black;
     font-size: 27px;
     transition: background-color 1s;
@@ -55,7 +55,7 @@ body {
     display: inline-block;
     margin: 1% auto;
 }
-.pergaminho:hover{
+.pergaminho:hover {
     transform: translateY(0px);
     animation: float 1s ease-in-out infinite;
 }
