@@ -15,7 +15,7 @@ body {
 .principal {
     color: rgb(192, 125, 0);
     text-align: center;
-    width: 80%;
+    width: 55%;
     margin: 0 auto;
     background-color: rgba(90, 90, 90, 0.7);
     font-size: 1.5em;
@@ -30,24 +30,44 @@ body {
     background-repeat: no-repeat;
     background-position: top;
 }
-.pergaminho {
-    width: 25%;
+#menu {
     height: 100%;
+    width: 100%;
+}
+.opcao {
+    height: 40px;
+    width: 25%;
     float: left;
-    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: rgb(192, 125, 0);
+    padding-top: 10px;
+    text-align: center;
+    transition: background-color 1s;
+}
+.opcao:hover{
+    background-color: black;
+    font-size: 27px;
+    transition: background-color 1s;
+}
+.pergaminho {
+    width: 22%;
+    height: 100%;
+    display: inline-block;
+    margin: 1% auto;
 }
 .pergaminho:hover{
     transform: translateY(0px);
-    animation: float 2s ease-in-out infinite;
+    animation: float 1s ease-in-out infinite;
 }
-li {
-    width: 25%;
-    height: 100%;
-    float: left;
-    margin: 0 auto;
+.nomesPergaminhos {
     list-style-type: none;
+    width: 22%;
+    height: 100%;
+    margin-top: -25px;
+    margin-left: 19px;
+    float: left;
     text-align: center;
 }
 address {
-    margin-top: 700px;
+    margin: 100px auto;
 }
