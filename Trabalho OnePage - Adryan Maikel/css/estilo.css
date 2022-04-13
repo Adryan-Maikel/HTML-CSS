@@ -47,7 +47,7 @@ body{
     display: block;
     padding: 16px 40px;
     width: 100px;
-    text-decoration: none;/*retira o sublinhado do link*/
+    text-decoration: none;
 }
 .menu ul li a:hover{
     background-color: navy;
@@ -81,7 +81,6 @@ body{
     text-align: justify;
     text-indent: 2ch;
     line-height: 1.6;
-  
 }
 .conteudo#historia{
     clear: both;
@@ -102,17 +101,13 @@ body{
 }
 .conteudo#tendencia{
     color: black;
-}
-.conteudo#tendencia{
     width: 65%;
-
 }
 #videoiot{
     padding-top: 2%;
     width: 100%;
     height: 80%;
     margin: 0 auto;
-
 }
 .rodape{
     width: 100%;
