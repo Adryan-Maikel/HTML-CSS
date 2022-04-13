@@ -1,0 +1,124 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: azure;
+    color: white;
+}
+.principal{
+    width: 100%;
+}
+.topo{
+    width: 100%;
+    height: 550px;
+    background-image: url(../img/topo.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.topo h1{
+    display: none;
+}
+.menu{
+    width: 100%;
+    height: 55px;
+    text-align: center;
+    position: -webkit-sticky;
+    background-color: rgba(0, 0, 128, 0.8);
+    position: sticky;
+    top: 0;
+}
+.menu ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: white;
+    display: block;
+    padding: 16px 40px;
+    width: 100px;
+    text-decoration: none;/*retira o sublinhado do link*/
+}
+.menu ul li a:hover{
+    background-color: navy;
+}
+.conteudo{
+    height: 750px;
+    width: 100%;
+    margin: 0 auto;
+}
+.conteudo h2{
+    font-size: 30px;
+    padding-top: 55px;
+    text-align: center;
+}
+.conteudo#home{
+    background-color: gray;
+}
+.conteudo#home figure, aside{
+    height: auto;
+    float: left;
+    margin-top: 3%;
+}
+.conteudo#home figure{
+    width: 430px;
+    margin-left: 20%;
+}
+.conteudo#home aside{
+    width: 30%;
+    margin-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    text-indent: 2ch;
+    line-height: 1.6;
+  
+}
+.conteudo#historia{
+    clear: both;
+    background-color: navy;
+}
+.conteudo#historia figure, aside{
+    height: auto;
+    float: left;
+    margin-top: 3%;
+}
+.conteudo#historia aside{
+    width: 30%;
+    margin-left: 15%;
+    padding-right: 5%;
+    text-align: justify;
+    text-indent: 2ch;
+    line-height: 1.6;
+}
+.conteudo#tendencia{
+    color: black;
+}
+.conteudo#tendencia{
+    width: 65%;
+
+}
+#videoiot{
+    padding-top: 2%;
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+
+}
+.rodape{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
