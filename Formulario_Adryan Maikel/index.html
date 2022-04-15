@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Adryan Maikel :: maikeladryan@gmail.com">
+    <meta name="description" content="Site com formulario de cadastro de usuarios">
+    <meta name="keywords" content="Formulario, Dados, Cadastro, Login">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Formulario</title>
+</head>
+<body>
+    <main class="principal">
+        <header class="topo">
+            <h1><u>Preencha com seus dados:</u></h1>
+        </header>
+        <section class="seção">
+            <h2>dados</h2>
+            <form action="#" method="post">
+                <fieldset class="dados">
+                    <legend><strong>Cadastro Login</strong></legend>
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="txtnome" id="nome" value="" placeholder="Nome completo" required>
+                    <br>
+                    <label for="apelido">Apelido: </label>
+                    <input type="text" name="txtapelido" id="apelido">
+                    <br>
+                    <label for="email">E-mail: </label>
+                    <input type="text" name="txtemail" id="email" value="" placeholder="nome@email.com" required>
+                    <br>
+                    <label for="senha">Senha: </label>
+                    <input type="password" name="pswsenha" id="senha" required>
+                    <br>
+                    <label for="repetirsenha">Repetir Senha: </label>
+                    <input type="password" name="repsenha" id="repetirsenha">
+                    <br>
+                    <input type="submit" value="Enviar" name="enviar">
+                    <input type="submit" value="Limpar" name="limpar">
+                </fieldset>
+            </form>
+        </section>
+        <footer class="rodape">
+            <p>
+                Todos os direitos autorais reservados à Adryan Maikel ©
+            </p>
+        </footer>
+    </main>
+</body>
+</html>
