@@ -9,15 +9,18 @@
         transform: translateY(0px);
     }
 }
+* {
+    margin: 0 auto;
+    color: rgb(65, 156, 105);
+    text-shadow: 0 0 0.2em black, 0 0 0.5em black;
+}
 body {
     background-image: url(../img/background.jpg);
 }
 .principal {
-    color: rgb(192, 125, 0);
     text-align: center;
-    width: 55%;
-    margin: 0 auto;
-    background-color: rgba(90, 90, 90, 0.7);
+    width: 1089px;
+    background-color: rgba(41, 41, 41, 0.726);
     font-size: 1.5em;
 }
 #titulo {
@@ -26,48 +29,56 @@ body {
 .topo {
     width: 100%;
     height: 300px;
-    background-image: url(../img/topo.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
+    background-color: rgba(0, 0, 0, 0.4);
 }
-#menu {
-    height: 100%;
+.menu {
     width: 100%;
-}
-.opcao {
-    height: 40px;
-    width: 25%;
-    float: left;
-    background-color: rgba(0, 0, 0, 0.548);
-    color: rgb(192, 125, 0);
-    padding-top: 10px;
+    height: 50px;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.menu ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a {
+    display: block;
+    height: 30px;
+    width: 200px;
+    padding: 10px 50px;
+    text-decoration: none;
+}
+.menu ul li a:hover {
+    background-color: black;
     transition: background-color 1s;
 }
-.opcao:hover {
-    background-color: black;
-    font-size: 27px;
-    transition: background-color 1s;
+#primeiroNome {
+    margin-left: -10px;
+}
+#terceiroNome {
+    margin-left: 10px;
+}
+.nomesPergaminhos {
+    list-style-type: none;
+    width: 25%;
+    height: 100%;
+    margin-top: 20px;
+    float: left;
 }
 .pergaminho {
     width: 22%;
     height: 100%;
-    display: inline-block;
-    margin: 1% auto;
+    float: left;
+    margin-top: 2%;
+    margin-left: 3%;
 }
 .pergaminho:hover {
     transform: translateY(0px);
     animation: float 1s ease-in-out infinite;
-}
-.nomesPergaminhos {
-    list-style-type: none;
-    width: 22%;
-    height: 100%;
-    margin-top: -25px;
-    margin-left: 19px;
-    float: left;
-    text-align: center;
-}
-address {
-    margin: 100px auto;
 }
