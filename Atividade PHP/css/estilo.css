@@ -1,0 +1,17 @@
+@charset "UTF-8";
+*{
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+}
+.corpo{
+    background-color: black;
+}
+.topo{
+    height: 500px;
+    background-image: url(../img/topo.PNG);
+    background-size: 100%;
+}
+.h1{
+    text-decoration: none;
+}
