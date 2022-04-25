@@ -1,0 +1,22 @@
+@charset "UTF-8";
+*{
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+}
+.corpo{
+    background-image: url(../img/background.gif);
+    background-size: 100%;
+}
+.topo{
+    height: 150px;
+}
+.topo h1{
+    padding-top: 25px;
+}
+.secao{
+    height: 180px;
+}
+.secao button{
+    margin-top: 20px;
+}
