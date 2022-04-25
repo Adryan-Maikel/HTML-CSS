@@ -15,7 +15,7 @@
 <body class="corpo">
     <main class="container">
         <header class="topo">
-            <h1 class="text-center display-3 text-warning">Atividade PHP</h1>
+            <h1 class="text-center display-3 text-warning">Atividades PHP</h1>
         </header>
         <section>
             <h2 class="text-warning">Selecione uma das atividades</h2>
