@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Adryan Maikel :: maikeladryan@gmail.com">
-    <meta name="description" content="Site para mostrar modelo de uma pagina One Page">
+    <meta name="description" content="Atividade em PHP com operações matematicas basicas">
     <meta name="keywords" content="PHP, Soma, Subtração, Multiplicação">
     <link rel="shortcut icon" href="#" type="image/x-icon">
     <link rel="stylesheet" href="css/estilo.css">
