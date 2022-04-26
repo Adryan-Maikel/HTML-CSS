@@ -19,26 +19,24 @@
         <header class="topo">
             <h1 class="text-center display-3">Atividades 2 PHP</h1>
         </header>
-        <section class="text-center display-2 secao">
+        <section class="text-center">
             <h2>Atividade 03</h2>
-            <a href="index.php"><button type="button" class="btn btn-dark btn-lg">Voltar</button></a>
-        </section>
-        <section>
+            <a href="index.php" class="btn btn-dark btn-lg">Voltar</a>
             <p>
                 3. Desenvolva um programa que leia a altura (2) e base (3) de um retângulo. Seu programa deve calcular a área do retângulo.
             </p>
-            <p>
-                <?php
-                    $altura;
-                    $base;
-                    $areaDoRetangulo;
-                    $altura = 2;
-                    $base = 3;
-                    $areaDoRetangulo = $base*$altura;
-                    echo 'Um retangulo com '.$altura.' de altura '.$base.' de base, tem sua area igual a '.$areaDoRetangulo.'.';
-                ?>
-                
-            </p>
+                <p>
+                    <?php
+                        $altura;
+                        $base;
+                        $areaDoRetangulo;
+                        $altura = 2;
+                        $base = 3;
+                        $areaDoRetangulo = $base*$altura;
+                        echo 'Um retangulo com '.$altura.' de altura '.$base.' de base, tem sua area igual a '.$areaDoRetangulo.'.';
+                    ?>
+                    
+                </p>
         </section>
         <footer class="text-center">
             <address>Adryan Maikel &#128187;</address>

@@ -28,22 +28,24 @@
                 $atual = 2020;<br>
                 Seu programa deve calcular a idade que a pessoa fará neste ano atual e mostrar na tela.
             </p>
-            <?php
-                //declarando
-                $nome;
-                $nascimento;
-                $atual;
-                $idade;
-                //atribuindo valor
-                $nome = "Borigodolfa";
-                $nascimento = 2000;
-                $atual = 2020;
-                //calculo
-                $idade = $atual - $nascimento;
-                //saida
-                echo '<p>Hello '.$nome.' você tem '.$idade.' anos</p>'
-            ?>
-            
+            <p>
+                <?php
+                    //declarando
+                    $nome;
+                    $nascimento;
+                    $atual;
+                    $idade;
+                    //atribuindo valor
+                    $nome = "Borigodolfa";
+                    $nascimento = 2000;
+                    $atual = 2020;
+                    //calculo
+                    $idade = $atual - $nascimento;
+                    //saida
+                    echo '<p>Hello '.$nome.' você tem '.$idade.' anos</p>'
+                ?>
+
+            </p>
         </section>
         <footer>
             <address class="text-warning">Adryan Maikel</address>

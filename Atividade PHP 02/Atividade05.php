@@ -19,11 +19,9 @@
         <header class="topo">
             <h1 class="text-center display-3">Atividades 2 PHP</h1>
         </header>
-        <section class="text-center display-2 secao">
+        <section class="text-center">
             <h2>Atividade 05</h2>
-            <a href="index.php"><button type="button" class="btn btn-dark btn-lg">Voltar</button></a>
-        </section>
-        <section>
+            <a href="index.php" class="btn btn-dark btn-lg">Voltar</a>
             <p>
                 5. Faça um programa que receba o preço de um produto= 260.50, e o n° de parcelas desejado = 3. O programa deverá seguir a tabela abaixo e informar o valor total a pagar, e o valor de cada parcela.
                 Até 3 parcelas = Terá 12% de juros sobre o valor do produto.

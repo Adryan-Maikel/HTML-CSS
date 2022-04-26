@@ -28,22 +28,24 @@
                 $numero3 = 20 <br>
                 Seu programa deve encontrar e mostrar na tela a soma dos três números.
             </p>
-            <?php
-                //declarando
-                $numero1;
-                $numero2;
-                $numero3;
-                $somaDosNumeros;
-                //atribuindo valor
-                $numero1 = 10;
-                $numero2 = 20;
-                $numero3 = 20;
-                //calculo
-                $somaDosNumeros = $numero1 + $numero2 + $numero3;
-                //saida
-                echo '<p>A soma dos números é: '.$somaDosNumeros.'</p>'
-            ?>
+            <p>
+                <?php
+                    //declarando
+                    $numero1;
+                    $numero2;
+                    $numero3;
+                    $somaDosNumeros;
+                    //atribuindo valor
+                    $numero1 = 10;
+                    $numero2 = 20;
+                    $numero3 = 20;
+                    //calculo
+                    $somaDosNumeros = $numero1 + $numero2 + $numero3;
+                    //saida
+                    echo 'A soma dos números é: '.$somaDosNumeros;
+                ?>
 
+            </p>
         </section>
         <footer>
             <address class="text-warning">Adryan Maikel</address>

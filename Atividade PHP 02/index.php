@@ -19,15 +19,15 @@
         <header class="topo">
             <h1 class="text-center display-3">Atividades 2 PHP</h1>
         </header>
-        <section class="text-center secao">
+        <section class="text-center">
             <h2>Selecione uma das atividades</h2>
-            <a href="Atividade01.php"><button type="button" class="btn btn-dark btn-lg">Atividade 01</button></a>
-            <a href="Atividade02.php"><button type="button" class="btn btn-dark btn-lg">Atividade 02</button></a>
-            <a href="Atividade03.php"><button type="button" class="btn btn-dark btn-lg">Atividade 03</button></a>
-            <a href="Atividade04.php"><button type="button" class="btn btn-dark btn-lg">Atividade 04</button></a>
-            <a href="Atividade05.php"><button type="button" class="btn btn-dark btn-lg">Atividade 05</button></a>
+            <a href="Atividade01.php" class="btn btn-dark btn-lg">Atividade 01</a>
+            <a href="Atividade02.php" class="btn btn-dark btn-lg">Atividade 02</a>
+            <a href="Atividade03.php" class="btn btn-dark btn-lg">Atividade 03</a>
+            <a href="Atividade04.php" class="btn btn-dark btn-lg">Atividade 04</a>
+            <a href="Atividade05.php" class="btn btn-dark btn-lg">Atividade 05</a>
         </section>
-        <footer class="text-center">
+        <footer class="mt-2 text-center">
             <address>Adryan Maikel &#128187;</address>
         </footer>
     </main>

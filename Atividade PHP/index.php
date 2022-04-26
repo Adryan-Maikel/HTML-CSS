@@ -19,10 +19,10 @@
         </header>
         <section>
             <h2 class="text-warning">Selecione uma das atividades</h2>
-            <a href="atividade01.php"><button type="button" class="btn btn-warning">1</button></a>
-            <a href="atividade02.php"><button type="button" class="btn btn-warning">2</button></a>
-            <a href="atividade03.php"><button type="button" class="btn btn-warning">3</button></a>
-            <a href="atividade04.php"><button type="button" class="btn btn-warning">4</button></a>
+            <a href="atividade01.php" class="btn btn-warning">1</a>
+            <a href="atividade02.php" class="btn btn-warning">2</a>
+            <a href="atividade03.php" class="btn btn-warning">3</a>
+            <a href="atividade04.php" class="btn btn-warning">4</a>
         </section>
         <footer>
             <address class="text-warning">Adryan Maikel</address>

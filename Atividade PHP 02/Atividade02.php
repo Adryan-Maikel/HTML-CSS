@@ -19,11 +19,9 @@
         <header class="topo">
             <h1 class="text-center display-3">Atividades 2 PHP</h1>
         </header>
-        <section class="text-center display-2 secao">
+        <section class="text-center">
             <h2>Atividade 02</h2>
-            <a href="index.php"><button type="button" class="btn btn-dark btn-lg">Voltar</button></a>
-        </section>
-        <section>
+            <a href="index.php" class="btn btn-dark btn-lg">Voltar</a>
             <p>
                 2. Desenvolva um algoritmo CONVERSOR, este deve ler número de anos (10), e deverá converter este ano para meses, converter ano para semana, converter ano para dias. Ex.: 1 ano, 12 meses, 52 semanas, 365 dias.
             </p>

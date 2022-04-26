@@ -28,21 +28,24 @@
                 $quantidade = 10<br>
                 Seu programa deve calcular o valor a pagar.
             </p>
-            <?php
-                //declarando
-                $produto;
-                $valor;
-                $quantidade;
-                $totalAPagar;
-                //atribuindo valor
-                $produto = "Bis";
-                $valor = 4.50;
-                $quantidade = 10;
-                //calculo
-                $totalAPagar = $valor * $quantidade;
-                //saida
-                echo '<p>Você terá que pagar R$'.$totalAPagar.'.00</p>'
-            ?>
+            <p>
+                <?php
+                    //declarando
+                    $produto;
+                    $valor;
+                    $quantidade;
+                    $totalAPagar;
+                    //atribuindo valor
+                    $produto = "Bis";
+                    $valor = 4.50;
+                    $quantidade = 10;
+                    //calculo
+                    $totalAPagar = $valor * $quantidade;
+                    //saida
+                    echo '<p>Você terá que pagar R$'.$totalAPagar.'.00</p>'
+                ?>
+
+            </p>
         </section>
         <footer>
             <address class="text-warning">Adryan Maikel</address>

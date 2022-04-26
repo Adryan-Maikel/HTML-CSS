@@ -27,20 +27,22 @@
                 $valor2 = 2<br>
                 Seu programa deve mostrar o resultado na tela.
             </p>
-            <?php
-                //declarando
-                $valor1;
-                $valor2;
-                $diferencaDosValores;
-                //atribuindo valor
-                $valor1 = 10;
-                $valor2 = 2;
-                //calculo
-                $diferencaDosValores = $valor1 - $valor2;
-                //saida
-                echo '<p>A diferença dos números é: '.$diferencaDosValores.'</p>'
-            ?>
+            <p>
+                <?php
+                    //declarando
+                    $valor1;
+                    $valor2;
+                    $diferencaDosValores;
+                    //atribuindo valor
+                    $valor1 = 10;
+                    $valor2 = 2;
+                    //calculo
+                    $diferencaDosValores = $valor1 - $valor2;
+                    //saida
+                    echo 'A diferença dos números é: '.$diferencaDosValores;
+                ?>
 
+            </p>
         </section>
         <footer>
             <address class="text-warning">Adryan Maikel</address>

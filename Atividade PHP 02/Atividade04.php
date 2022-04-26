@@ -19,11 +19,9 @@
         <header class="topo">
             <h1 class="text-center display-3">Atividades 2 PHP</h1>
         </header>
-        <section class="text-center display-2 secao">
+        <section class="text-center">
             <h2>Atividade 04</h2>
-            <a href="index.php"><button type="button" class="btn btn-dark btn-lg">Voltar</button></a>
-        </section>
-        <section>
+            <a href="index.php" class="btn btn-dark btn-lg">Voltar</a>
             <p>
                 4. Desenvolva um programa que leia nome (Arroz) , valor de custo de um produto (4.90). Seu programa deve calcular o valor com juros de 55% de um valor com desconto de 8%.
             </p>
