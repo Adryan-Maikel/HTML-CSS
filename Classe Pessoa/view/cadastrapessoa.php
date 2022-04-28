@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando classe pessoa utilizando MVC</title>
+    <meta name="author" content="Adryan Maikel">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+    <main class= "jumbotron">
+        <header>
+            <h1 class="text-center">Classe Pessoa</h1>
+        </header>
+        <section class="container">
+            <h2>Cadastrar Pessoa</h2>
+            <form action="../controller/pessoa.controller.php" name="form1" method="get">
+                <div class="form-group">
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="txtnome" class="form-control"> 
+                </div>
+                <div class="form-group">
+                    <label for="idade">Idade: </label>
+                    <input type="number" name="txtidade" class="form-control">
+                </div>
+                <input type="submit" value="Envia" class="btn btn-info">
+            </form>
+        </section>
+        <footer>
+            <address class="text-center">Adryan Maikel</address>
+        </footer>
+    </main>
+</body>
+</html>
