@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho sobre o padrão MVC</title>
+    <meta name="author" content="Adryan Maikel">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+    <main class= "jumbotron">
+        <header>
+            <h1 class="text-center">Exercicio 1</h1>
+        </header>
+        <section class="container">
+            <h2>Cadastrar Funcionario</h2>
+            <form action="../controller/funcionario.controller.php" name="form-funcionario" method="get">
+                <div class="form-group">
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="txtnome" class="form-control" id="nome"> 
+                </div>
+                <div class="form-group">
+                    <label for="salario">Salário: </label>
+                    <input type="number" name="txtsalario" class="form-control" id="salario">
+                </div>
+                <div class="form-group">
+                    <label for="valorvendas">Valor de Vendas: </label>
+                    <input type="number" name="txtvendas" class="form-control" id="valorvendas">
+                </div>
+                <input type="submit" value="Envia" class="btn btn-info">
+            </form>
+        </section>
+        <footer>
+            <address class="text-center">Adryan Maikel</address>
+        </footer>
+    </main>
+</body>
+</html>
