@@ -16,14 +16,25 @@
         </header>
         <section class="container">
             <h2>Calcular IMC</h2>
-            <form action="../controller/#.controller.php" name="form1" method="get">
+            <form action="../controller/pessoa.controller.php" name="form-pessoa" method="get">
                 <div class="form-group">
-                    <label for="nome">Nome: </label>
+                    <label for="nome">Nome :</label>
                     <input type="text" name="txtnome" class="form-control"> 
                 </div>
                 <div class="form-group">
-                    <label for="#"> </label>
-                    <input type="number" name="" class="form-control">
+                    <label for="sexo">Você é: </label>
+                    <select name="selsexo" id="sexo" class="form-control">
+                        <option value="1">Homem</option>
+                        <option value="2">Mulher</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="peso">Peso :</label>
+                    <input type="number" name="numpeso" class="form-control" id="peso">
+                </div>
+                <div class="form-group">
+                    <label for="altura">Altura :</label>
+                    <input type="number" name="numaltura" class="form-control" id="altura">
                 </div>
                 <input type="submit" value="Envia" class="btn btn-info">
             </form>
