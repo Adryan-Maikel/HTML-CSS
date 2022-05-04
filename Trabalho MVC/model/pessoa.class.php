@@ -19,9 +19,9 @@
         }
         public function getGenero(){
             if($this->genero == 1){
-                $this->genero = 'homem';
+                $this->genero = "homem";
             } else {
-                $this->genero = 'mulher';
+                $this->genero = "mulher";
             }
             return $this->genero;
         }
