@@ -41,12 +41,12 @@
             $this->altura = $altura;
         }
         public function calcularImc(){
-            return $this->peso * 10000 / ($this->altura * $this->altura);
+            return $this->peso * / pow($this->altura,2);
         }
         public function pesoIdeal(){
             $pesoIdeal = "";
             $imc = $this->calcularImc();
-            if ($imc >= 18.5 & $imc <= 24.9) {
+            if ($imc >= 18.5 && $imc <= 24.9) {
                 $pesoIdeal = "Você está no peso ideal.";
             } else {
                 $pesoIdeal = "Você não está no peso ideal.";
