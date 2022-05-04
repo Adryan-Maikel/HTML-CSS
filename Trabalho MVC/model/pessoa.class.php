@@ -57,7 +57,7 @@
             return '<br>Nome: '.$this->getNome().'<br>Você é '
             .$this->getGenero().'<br>Seu peso é '
             .number_format($this->getPeso(),1,'.','.').' KG<br>Sua altura é '
-            .$this->getAltura().' M<br>Seu imc é '
+            .number_format($this->getAltura(),2,'.','.').' M<br>Seu imc é '
             .number_format($this->calcularImc(),2,'.','.').
             '<br>'.$this->pesoIdeal();
         }
