@@ -6,5 +6,4 @@
     $altura = $_GET['numaltura'];
     $p1 = new Pessoa($nome,$sexo,$peso,$altura);
     echo '<p>'.$p1.'</p>';
-
 ?>
