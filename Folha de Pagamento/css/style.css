@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.especial{
+    margin:0;
+	  padding:0;
+    background-image: url(../img/background.png);
+    background-attachment:fixed;
+    background-size: 100%;
+}
+.cadastrocontainer-fluid{
+  width:80%;
+	margin:auto;
+	background-color:rgba(0,0,0,0.8);
+	padding:10px;
+	border-radius:20px;
+}
+
+input{
+    color: white;
+}
+p{
+  text-align:justify;
+  text-indent: 20px;
+  line-height: 2;
+  color:rgb(255,255,255);
+}
+.jumbotron {
+  background-image:url(../img/topper.png) !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 314px !important;
+}
+.textos {
+  color: black;
+}
