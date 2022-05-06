@@ -12,7 +12,7 @@
         private $valorTransporteMensal;
         private $valorRefeicaoDiaria;
 
-        public function Funcionario($nome,$cargo,$cpf,$valorHora,$quantidadeHoras,$dependentes,$horasExtras50,$horasExtras100,$tipoInsalubridade,$valorTransporteMensal,$valorRefeicaoDiaria){
+        public function Funcionarios($nome,$cargo,$cpf,$valorHora,$quantidadeHoras,$dependentes,$horasExtras50,$horasExtras100,$tipoInsalubridade,$valorTransporteMensal,$valorRefeicaoDiaria){
             $this->nome = $nome;
             $this->cargo = $cargo;
             $this->cpf = $cpf;
@@ -167,20 +167,7 @@
                     "<br>Horas extras 100: ".$this->getHorasExtras100().
                     "<br>Quantidade de dependentes: ".$this->getDependentes().
                     "<br>Valor trasporte mensal: ".$this->getValorTransporteMensal().
-                    "<br>Valor refeição diario: ".$this->getValorRefeicaoDiaria().
-                    "<br><br>Reultados da folha de pagamento<br>".
-                    "<br>Salário bruto: R$ ".number_format($this->calcularSalarioBruto(),2,',','.').
-                    "<br>Vale transporte: R$ ".number_format($this->calcularValeTransporte(),2,',','.').
-                    "<br>Salário familia: R$ ".number_format($this->calcularSalarioFamilia(),2,',','.').
-                    "<br>Salário insalubridade: R$ ".number_format($this->calcularInsalubridade(),2,',','.').
-                    "<br>Valor do inss: R$ ".number_format($this->calcularInss(),2,',','.').
-                    "<br>Valor total do vale refeição: R$ ".number_format($this->calcularValeRefeicao(),2,',','.').
-                    "<br>Total de horas extras 50: R$ ".number_format($this->calcularHorasExtra50(),2,',','.').
-                    "<br>Total de horas extras 100: R$ ".number_format($this->calcularHorasExtras100(),2,',','.').
-                    "<br>Total de horas extras somado: R$ ".number_format($this->calcularTotalHorasExtras(),2,',','.').
-                    "<br>Total de descontos: R$ ".number_format($this->calcularDescontos(),2,',','.').
-                    "<br>Total de beneficios: R$ ".number_format($this->calcularBeneficios(),2,',','.').
-                    "<br>Salário liquido: R$ ".number_format($this->calcularSalarioLiquido(),2,',','.');
+                    "<br>Valor refeição diario: ".$this->getValorRefeicaoDiaria();
         }   
     }
 ?>
